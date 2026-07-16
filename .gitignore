@@ -1,0 +1,56 @@
+# Raw and derived data
+data/*
+!data/README.md
+!data/sample/
+!data/sample/**
+output/
+outputs/
+results/
+diagnostics/
+
+# Large scientific data formats
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.rds
+*.RData
+*.nc
+*.hdf
+*.h5
+*.tif
+*.tiff
+*.shp
+*.dbf
+*.shx
+*.gpkg
+*.geojson
+*.zip
+
+# Generated figures and manuscripts
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.docx
+*.html
+*.tex
+
+# Local environments and caches
+.env
+.venv/
+venv/
+renv/library/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.Rhistory
+.Rproj.user/
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log

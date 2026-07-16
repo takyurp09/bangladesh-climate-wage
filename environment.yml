@@ -1,0 +1,30 @@
+name: bangladesh-climate-wage
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - pip
+  - numpy
+  - pandas
+  - geopandas
+  - xarray
+  - rasterio
+  - rioxarray
+  - netcdf4
+  - shapely
+  - pyproj
+  - matplotlib
+  - seaborn
+  - jupyter
+  - r-base>=4.3
+  - r-tidyverse
+  - r-fixest
+  - r-modelsummary
+  - r-broom
+  - r-sf
+  - r-terra
+  - r-arrow
+  - r-here
+  - r-ggplot2
+  - r-viridis
+  - r-patchwork
