@@ -37,6 +37,7 @@ This project demonstrates:
 ├── data/
 │   └── README.md   # Data access and licensing notes
 ├── docs/           # Method notes and project documentation
+├── examples/       # Small real-data extracts from processed outputs
 ├── figures/        # Placeholder for public-facing selected figures
 ├── environment.yml # Conda/R environment specification
 ├── LICENSE
@@ -45,13 +46,29 @@ This project demonstrates:
 
 ## Selected Figures
 
-The repository includes a small number of public-facing visuals in `figures/selected/`:
+The repository includes a small number of public-facing visuals in `figures/selected/`.
 
-- workflow overview
-- temperature-response by rice season
-- Stage 1 climate-yield summary
+![Workflow overview](figures/selected/workflow_overview.svg)
 
-Full thesis tables, manuscript PDFs, and generated appendix outputs are intentionally excluded.
+![Temperature response by rice season](figures/selected/temperature_response_by_rice_season.png)
+
+![Wage-yield pass-through by contract](figures/selected/wage_yield_pass_through_by_contract.png)
+
+See `docs/VISUAL_GALLERY.md` for figure notes.
+
+## Example Data Products
+
+The repository includes small real-data extracts in `examples/`. These are limited documentation samples, not a full replication dataset or complete result-table release.
+
+| Example file | Purpose |
+|---|---|
+| `examples/sample_climate_exposure.csv` | District-season growing degree days, extreme degree days, and precipitation |
+| `examples/sample_rice_yield_panel.csv` | District-season rice yield panel structure |
+| `examples/sample_wage_panel.csv` | Agricultural wage panel fields by season and meal category |
+| `examples/sample_analysis_panel.csv` | Merged yield-shock and wage analysis panel fields |
+| `examples/sample_contract_slope_diagnostic.csv` | Compact wage-yield contract-slope diagnostic |
+
+See `docs/SAMPLE_TABLES.md` for a readable version.
 
 ## Workflow
 

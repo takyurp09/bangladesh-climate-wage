@@ -1,0 +1,4 @@
+District,year,growing_season,gender,meal_type,real_wage,log_yield_hat,ratio_double_cropped
+Bagerhat,2017,Aman,Female,None,325.8479,-0.2173,0.2601
+Bagerhat,2018,Aman,Female,None,310.9945,-0.2027,0.2609
+Bagerhat,2019,Aman,Female,None,377.8527,-0.2051,0.2231

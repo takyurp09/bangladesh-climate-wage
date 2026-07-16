@@ -72,7 +72,7 @@ Rscript code/stage2/06_summary_stats.R
 
 ## Version-Control Rules
 
-Commit code, documentation, configuration files, and small public-facing notes.
+Commit code, documentation, configuration files, small public-facing notes, selected visuals, and small public sample extracts.
 
 Do not commit:
 
@@ -116,3 +116,9 @@ This public version is intended to demonstrate:
 - separation of code from raw data and generated outputs
 
 It is not intended to be a complete public release of all thesis materials.
+
+## Public Example Outputs
+
+The `examples/` directory contains small real-data extracts from processed outputs. These files are intentionally limited to a few rows so reviewers can see column names, units, and data-flow expectations without receiving raw data or full result tables.
+
+The `figures/selected/` directory contains a curated set of public visuals. See `docs/VISUAL_GALLERY.md` for figure notes.

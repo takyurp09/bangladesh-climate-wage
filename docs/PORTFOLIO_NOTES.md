@@ -9,6 +9,7 @@ This repository is designed as a public-facing code sample for applied agricultu
 - Climate exposure is constructed at the relevant agronomic unit: district by rice growing season.
 - The econometric scripts separate data preparation, main regressions, heterogeneity, robustness, maps, and diagnostic checks.
 - The repository intentionally documents data limitations and excludes raw data.
+- Selected figures and sample extracts are curated for public review.
 
 ## What Is Not Included
 

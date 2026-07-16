@@ -39,6 +39,9 @@ diagnostics/
 !figures/selected/**
 !figures/selected/*.png
 !figures/selected/*.svg
+!examples/
+!examples/**
+!examples/*.csv
 
 # Local environments and caches
 .env
