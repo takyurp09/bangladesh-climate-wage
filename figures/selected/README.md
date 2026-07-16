@@ -7,6 +7,7 @@ Included figures:
 - `workflow_overview.svg`: high-level reproducible workflow from climate data to wage regressions.
 - `temperature_response_by_rice_season.png`: seasonal temperature-response visualization for rice yield.
 - `climate_yield_stage1_summary.png`: selected Stage 1 climate-yield summary figure.
+- `district_yield_wage_trends.png`: all-district panel of indexed rice-yield and real-wage trends.
 - `wage_yield_pass_through_by_contract.png`: selected wage-yield pass-through visualization by contract category.
 
 Not included:

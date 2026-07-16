@@ -52,6 +52,8 @@ The repository includes a small number of public-facing visuals in `figures/sele
 
 ![Temperature response by rice season](figures/selected/temperature_response_by_rice_season.png)
 
+![District yield and wage trends](figures/selected/district_yield_wage_trends.png)
+
 ![Wage-yield pass-through by contract](figures/selected/wage_yield_pass_through_by_contract.png)
 
 See `docs/VISUAL_GALLERY.md` for figure notes.
