@@ -43,6 +43,16 @@ This project demonstrates:
 └── README.md
 ```
 
+## Selected Figures
+
+The repository includes a small number of public-facing visuals in `figures/selected/`:
+
+- workflow overview
+- temperature-response by rice season
+- Stage 1 climate-yield summary
+
+Full thesis tables, manuscript PDFs, and generated appendix outputs are intentionally excluded.
+
 ## Workflow
 
 ### 1. Climate Exposure Pipeline

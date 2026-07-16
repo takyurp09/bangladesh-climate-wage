@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Bangladesh climate-wage reproducible workflow</title>
+  <desc id="desc">A workflow diagram showing input data, climate exposure construction, stage one climate-yield models, stage two wage pass-through models, and public portfolio outputs.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7f8fb; }
+      .box { fill: #ffffff; stroke: #25324a; stroke-width: 2; rx: 8; }
+      .box2 { fill: #eef6f1; stroke: #2f6f4e; stroke-width: 2; rx: 8; }
+      .box3 { fill: #fff5e8; stroke: #a35b00; stroke-width: 2; rx: 8; }
+      .box4 { fill: #eef4ff; stroke: #315f9f; stroke-width: 2; rx: 8; }
+      .title { font: 700 26px Arial, sans-serif; fill: #182235; }
+      .label { font: 700 17px Arial, sans-serif; fill: #182235; }
+      .text { font: 14px Arial, sans-serif; fill: #2d3748; }
+      .small { font: 12px Arial, sans-serif; fill: #4a5568; }
+      .arrow { stroke: #25324a; stroke-width: 2.5; fill: none; marker-end: url(#arrow); }
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#25324a" />
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1200" height="520" />
+  <text class="title" x="60" y="54">Climate Shocks, Rice Yields, and Agricultural Wages in Bangladesh</text>
+  <text class="small" x="60" y="82">Public GitHub workflow: code and documentation are version controlled; raw data and generated outputs stay outside Git.</text>
+
+  <rect class="box" x="60" y="130" width="210" height="170" />
+  <text class="label" x="82" y="164">Input Data</text>
+  <text class="text" x="82" y="198">ERA5 climate data</text>
+  <text class="text" x="82" y="222">Rice crop calendars</text>
+  <text class="text" x="82" y="246">District boundaries</text>
+  <text class="text" x="82" y="270">Yield and wage panels</text>
+
+  <rect class="box2" x="330" y="130" width="210" height="170" />
+  <text class="label" x="352" y="164">Climate Pipeline</text>
+  <text class="text" x="352" y="198">GDD / EDD measures</text>
+  <text class="text" x="352" y="222">Seasonal windows</text>
+  <text class="text" x="352" y="246">Spatial aggregation</text>
+  <text class="text" x="352" y="270">District-season panel</text>
+
+  <rect class="box3" x="600" y="130" width="210" height="170" />
+  <text class="label" x="622" y="164">Stage 1</text>
+  <text class="text" x="622" y="198">Climate to rice yield</text>
+  <text class="text" x="622" y="222">Season-specific models</text>
+  <text class="text" x="622" y="246">Fixed effects</text>
+  <text class="text" x="622" y="270">Fitted yield shocks</text>
+
+  <rect class="box4" x="870" y="130" width="250" height="170" />
+  <text class="label" x="892" y="164">Stage 2</text>
+  <text class="text" x="892" y="198">Yield shocks to wages</text>
+  <text class="text" x="892" y="222">Meal-type heterogeneity</text>
+  <text class="text" x="892" y="246">Robustness checks</text>
+  <text class="text" x="892" y="270">Diagnostic figures</text>
+
+  <path class="arrow" d="M270 215 H330" />
+  <path class="arrow" d="M540 215 H600" />
+  <path class="arrow" d="M810 215 H870" />
+
+  <rect class="box" x="190" y="365" width="260" height="95" />
+  <text class="label" x="214" y="398">Version Control</text>
+  <text class="text" x="214" y="426">Git commits track code and docs</text>
+  <text class="text" x="214" y="448">`.gitignore` excludes data/output files</text>
+
+  <rect class="box" x="500" y="365" width="260" height="95" />
+  <text class="label" x="524" y="398">Reproducibility</text>
+  <text class="text" x="524" y="426">Run order documented by stage</text>
+  <text class="text" x="524" y="448">Environment listed in `environment.yml`</text>
+
+  <rect class="box" x="810" y="365" width="260" height="95" />
+  <text class="label" x="834" y="398">Public Portfolio</text>
+  <text class="text" x="834" y="426">Selected code, docs, and figures</text>
+  <text class="text" x="834" y="448">No raw data or thesis tables</text>
+</svg>

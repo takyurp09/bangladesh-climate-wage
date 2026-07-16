@@ -35,6 +35,10 @@ diagnostics/
 *.docx
 *.html
 *.tex
+!figures/selected/
+!figures/selected/**
+!figures/selected/*.png
+!figures/selected/*.svg
 
 # Local environments and caches
 .env
