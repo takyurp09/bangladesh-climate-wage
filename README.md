@@ -97,6 +97,8 @@ install.packages(c("fixest", "modelsummary", "tidyverse", "sf", "terra"))
 
 This is a public portfolio version of an active research project. The code structure and scripts are provided for transparency and review. Full reproduction requires access to the original climate, yield, wage, crop-calendar, and geospatial data sources.
 
+See `docs/REPRODUCIBILITY.md` for the version-control and reproducibility workflow.
+
 ## Citation
 
 If you use or adapt this code, please cite:
