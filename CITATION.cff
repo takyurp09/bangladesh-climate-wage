@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the working paper associated with this repository."
+title: "Climate, In-Kind Compensation, and Agricultural Wages: Evidence from a Developing Economy"
+type: software
+authors:
+  - family-names: Tahmid
+    given-names: Muhammad Taky
+  - family-names: Rising
+    given-names: James
+year: 2026
+license: MIT
+repository-code: "https://github.com/takyurp09/bangladesh-climate-wage"

@@ -1,10 +1,23 @@
 # Climate Shocks, Rice Yields, and Agricultural Wages in Bangladesh
 
+[![Status: Working Paper](https://img.shields.io/badge/status-working%20paper-1f6f8b)](#research-status)
+[![R](https://img.shields.io/badge/R-econometrics-276DC3?logo=r)](code/stage2/)
+[![Python](https://img.shields.io/badge/Python-climate%20pipeline-3776AB?logo=python&logoColor=white)](code/pipeline/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
+**Muhammad Taky Tahmid and James Rising**
+
+This repository is the public research companion to:
+
+> Tahmid, M. T. and Rising, J. (2026). *Climate, In-Kind Compensation, and Agricultural Wages: Evidence from a Developing Economy*. Working paper in preparation.
+
 This repository contains a reproducible research pipeline for studying how climate-driven rice yield shocks pass through to agricultural wages in Bangladesh. The project combines gridded climate data, crop calendars, district-level rice yields, and agricultural wage records to estimate whether yield risk is borne differently by casual and attached farm workers.
 
 ## Research Question
 
 Do climate-induced rice yield shocks affect agricultural wages in Bangladesh, and does pass-through differ by labor-contract type?
+
+The central estimand is the difference in cash-wage yield pass-through between workers receiving three employer-provided meals and workers receiving no meals. Meal provision is used as an observable proxy for attached versus casual agricultural labor contracts.
 
 The analysis focuses on Bangladesh's three major rice seasons:
 
@@ -103,6 +116,8 @@ Scripts in `code/stage2/` estimate whether fitted yield shocks affect agricultur
 - Cluster-robust and robustness inference
 - Heterogeneity analysis by season, worker type, and district characteristics
 
+The canonical econometric specifications, fixed effects, clustering decisions, and sample definition are documented in [`docs/SPECIFICATION.md`](docs/SPECIFICATION.md).
+
 ## Data
 
 Raw data are not included in this repository. Several inputs are large, licensed, or obtained from external providers. See `data/README.md` for data sources and reproducibility notes.
@@ -122,7 +137,7 @@ Install any additional R packages that are not available through your Conda setu
 install.packages(c("fixest", "modelsummary", "tidyverse", "sf", "terra"))
 ```
 
-## Reproducibility Status
+## Research Status
 
 This is a public portfolio version of an active research project. The code structure and scripts are provided for transparency and review. Full reproduction requires access to the original climate, yield, wage, crop-calendar, and geospatial data sources.
 
@@ -130,12 +145,12 @@ See `docs/REPRODUCIBILITY.md` for the version-control and reproducibility workfl
 
 ## Citation
 
-If you use or adapt this code, please cite:
+Please cite the working paper rather than the repository:
 
-> Tahmid, M. T. (2026). Climate Shocks, Rice Yields, and Agricultural Wages in Bangladesh. Research code repository.
+> Tahmid, M. T. and Rising, J. (2026). *Climate, In-Kind Compensation, and Agricultural Wages: Evidence from a Developing Economy*. Working paper in preparation.
 
 ## Author
 
 Muhammad Taky Tahmid  
 Ph.D. candidate, University of Delaware  
-Research areas: agricultural economics, climate impacts, food security, geospatial data science
+[tahmid@udel.edu](mailto:tahmid@udel.edu)
